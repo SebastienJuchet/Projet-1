@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px)
+{
+	#groupe_titre
+	{
+		font-size: 0.48em;
+		top: 0;
+	}
+
+	#services p
+	{
+		margin: 40px 15px 40px 15px;
+	}
+
+	#competences ul
+	{
+		width: 100%;
+		padding-left: 0;
+	}
+
+	#competences ul p
+	{
+		text-align: center;
+	}
+
+	#ux, #ui, #seo
+	{
+		display: block;
+	}
+
+	.fa-chart-line, .fa-cubes, .fa-chart-pie
+	{
+		font-size: 2em;
+		margin-left: calc(50% - 1em);
+	}
+
+	#competences ul .section_rond_blanc
+	{
+		margin: initial;
+		top: 1.5em;
+	}
+
+}

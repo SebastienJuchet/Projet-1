@@ -1,0 +1,99 @@
+@media screen and (max-width: 1024px)
+{
+	#accueil
+	{
+		flex-direction: column;
+		align-items: center;
+		height: 6em;
+	}
+
+	#accueil nav
+	{
+		margin-left: 10%;
+	}
+
+	#accueil img
+	{
+		padding-top: 5px;
+		margin-left: 0;
+	}
+
+	#baniere
+	{
+		padding-top: 6em;
+	}
+
+	#groupe_titre
+	{
+		top: 5%;
+		font-size: 0.8em;
+	}
+
+	#groupe_titre h1
+	{
+		width: 80%;
+	}
+
+	#accueil nav a:hover
+	{
+		border-bottom: 3px solid #5cadd3;
+		color: black;
+		vertical-align: middle;
+	}
+
+	#accueil nav li:hover
+	{
+		border-top: none;
+	}
+
+	.barre_section
+	{
+		width: 20%;
+		margin-left: 40%;
+	}
+
+	#competences img
+	{
+		position: absolute;
+		opacity: 0.1;
+		width: 100%;
+		height: auto;
+	}
+
+	#portfolio li
+	{
+		font-size: 1em;
+	}
+
+	#portfolio figure
+	{
+		width: 45%;
+	}
+
+	#image_portfolio figure
+	{
+		margin: 1%;
+	}
+
+	figcaption
+	{
+		display: none;
+	}
+
+	#contact
+	{
+		padding-top: 6em;
+	}
+
+	form
+	{
+		margin-left: 5%;
+		margin-top: 12%;
+		height: 28em;
+	}
+
+	textarea
+	{
+		height: 6em;
+	}
+}
